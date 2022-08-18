@@ -5,7 +5,7 @@ public class Counter {
         this.count = 0;
     }
 
-    public synchronized void increment() {
+    public void increment() {
         count += 1;
     }
 
