@@ -18,9 +18,9 @@ public class Multi implements Runnable {
 
         for (int i = 0; i < 1000; i++) {
 
-            lock.lock();
+//            lock.lock();
             c.increment();
-            lock.unlock();
+//            lock.unlock();
         }
 
     }
